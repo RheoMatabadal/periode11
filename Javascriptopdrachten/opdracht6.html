@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> learnign javascript</title>
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+<div class="header">
+<h1>Javascript</h1>
+<p>opdracht 6</p>
+
+</div>
+ 
+ <div class="container">	
+ <img id="one" onclick="changeImage()" src="one.png" width="200" height="100">
+</div>
+<span onclick="changeImage('one.png')">one</span>
+<span onclick="changeImage('two.png')">two</span>
+<span onclick="changeImage('three.png')">three</span>
+<SCRIPT >
+function changeImage(imgName)
+{
+image = document.getElementById('one');
+image.src = imgName;
+}
+</SCRIPT>
+
+</body>
+</html>
